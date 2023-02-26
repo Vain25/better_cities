@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "better_cities:uk_sub",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+
+    "salt": 126785981,
+
+    "spacing": 16,
+
+    "separation": 6,
+
+    "exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "minecraft:ocean_monuments"
+    }
+  }
+}
