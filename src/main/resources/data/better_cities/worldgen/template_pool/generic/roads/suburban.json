@@ -7,7 +7,7 @@
       "element": {
 
         "location": "better_cities:suburban_road1",
-        "processors": "better_cities:uk_sub",
+        "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -17,7 +17,7 @@
       "element": {
 
         "location": "better_cities:suburban_road2",
-        "processors": "better_cities:uk_sub",
+        "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -27,7 +27,7 @@
       "element": {
 
         "location": "better_cities:suburban_road3",
-        "processors": "better_cities:uk_sub",
+        "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -37,7 +37,7 @@
       "element": {
 
         "location": "better_cities:suburban_road4",
-        "processors": "better_cities:uk_sub",
+        "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -47,7 +47,7 @@
       "element": {
 
         "location": "better_cities:suburban_road5",
-        "processors": "better_cities:uk_sub",
+        "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
