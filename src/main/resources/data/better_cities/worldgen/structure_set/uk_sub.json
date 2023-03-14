@@ -12,7 +12,7 @@
 
     "spacing": 16,
 
-    "separation": 6,
+    "separation": 10,
 
     "exclusion_zone": {
       "chunk_count": 10,
