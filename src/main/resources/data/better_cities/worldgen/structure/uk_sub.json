@@ -2,7 +2,7 @@
 
   "type": "better_cities:uk_sub",
 
-  "start_pool": "better_cities:city/uk_sub",
+  "start_pool": "better_cities:city_start/uk_sub",
 
   "size": 10,
 
