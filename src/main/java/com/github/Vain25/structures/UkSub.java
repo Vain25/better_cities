@@ -1,6 +1,7 @@
 package com.github.Vain25.structures;
 
 import com.github.Vain25.StructureRegistry;
+import com.github.Vain25.util.StructureUtils;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import net.minecraft.core.BlockPos;
@@ -68,7 +69,7 @@ public class UkSub extends Structure {
     @Override
     public Optional<Structure.GenerationStub> findGenerationPoint(Structure.GenerationContext context) {
 
-        if (!UkSub.extraSpawningChecks(context)) {
+        if (!UkSub.extraSpawningChecks(context) && StructureUtils.isChunkAreaFlat(context, 64 / 16, 4)) {
             return Optional.empty();
         }
 
