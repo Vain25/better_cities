@@ -69,7 +69,7 @@ public class UkSub extends Structure {
     @Override
     public Optional<Structure.GenerationStub> findGenerationPoint(Structure.GenerationContext context) {
 
-        if (!UkSub.extraSpawningChecks(context) && StructureUtils.isChunkAreaFlat(context, 64 / 16, 4)) {
+        if (!StructureUtils.isChunkAreaFlat(context, 64 / 16, 8)) {
             return Optional.empty();
         }
 

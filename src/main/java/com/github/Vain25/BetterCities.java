@@ -29,7 +29,7 @@ import org.slf4j.Logger;
 public class BetterCities {
     public static final String MOD_ID = "better_cities";
 
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public BetterCities() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
