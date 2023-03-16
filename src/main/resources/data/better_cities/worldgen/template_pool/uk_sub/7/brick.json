@@ -11,6 +11,16 @@
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
+    },
+    {
+      "weight": 1,
+      "element": {
+
+        "location": "better_cities:uk_sub_corner_shops2",
+        "processors": "better_cities:corner_birch",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
     }
   ]
 }
