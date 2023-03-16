@@ -7,8 +7,8 @@
       "element": {
 
         "location": "better_cities:roads/suburban_road1",
-        "processors": "minecraft:empty",
-        "projection": "rigid",
+        "processors": "better_cities:suburban_road",
+        "projection": "terrain_matching",
         "element_type": "minecraft:single_pool_element"
       }
     },
@@ -17,8 +17,8 @@
       "element": {
 
         "location": "better_cities:roads/suburban_road2",
-        "processors": "minecraft:empty",
-        "projection": "rigid",
+        "processors": "better_cities:suburban_road",
+        "projection": "terrain_matching",
         "element_type": "minecraft:single_pool_element"
       }
     },
@@ -27,8 +27,8 @@
       "element": {
 
         "location": "better_cities:roads/suburban_road3",
-        "processors": "minecraft:empty",
-        "projection": "rigid",
+        "processors": "better_cities:suburban_road",
+        "projection": "terrain_matching",
         "element_type": "minecraft:single_pool_element"
       }
     },
@@ -37,18 +37,8 @@
       "element": {
 
         "location": "better_cities:roads/suburban_road4",
-        "processors": "minecraft:empty",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },
-    {
-      "weight": 1,
-      "element": {
-
-        "location": "better_cities:roads/suburban_road5",
-        "processors": "minecraft:empty",
-        "projection": "rigid",
+        "processors": "better_cities:suburban_road",
+        "projection": "terrain_matching",
         "element_type": "minecraft:single_pool_element"
       }
     }
