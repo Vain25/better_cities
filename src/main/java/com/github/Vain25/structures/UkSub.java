@@ -57,7 +57,6 @@ public class UkSub extends Structure {
     private static boolean extraSpawningChecks(Structure.GenerationContext context) {
         // Grabs the chunk position we are at
         ChunkPos chunkpos = context.chunkPos();
-
         return context.chunkGenerator().getFirstOccupiedHeight(
                 chunkpos.getMinBlockX(),
                 chunkpos.getMinBlockZ(),
@@ -68,7 +67,7 @@ public class UkSub extends Structure {
 
     @Override
     public Optional<Structure.GenerationStub> findGenerationPoint(Structure.GenerationContext context) {
-        if (!StructureUtils.isChunkAreaFlat(context, 64 / 16, 12)) {
+        if (extraSpawningChecks(context) && !StructureUtils.isChunkAreaFlat(context, 64 / 16, 12)) {
             return Optional.empty();
         }
 
